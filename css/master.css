@@ -115,7 +115,7 @@ ul {
   margin-left: 5px;
   padding-left: 30px;
   width: 160px;
-  transition: width .3s;
+  transition: width 0.3s;
 }
 .head .search input:focus {
   width: 200px;
@@ -198,7 +198,7 @@ ul {
 }
 .welcome .visit {
   margin: 0 15px 15px auto;
-  transition: .3s;
+  transition: 0.3s;
 }
 .welcome .visit:hover {
   background: var(--blue-alt-color);
@@ -215,3 +215,32 @@ ul {
   }
 }
 /* End Welcome Widget  */
+/* Start Quick Draft */
+.quick-draft textarea {
+  resize: none;
+  min-height: 180px;
+}
+.quick-draft .save {
+  margin-left: auto;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.quick-draft .save:hover {
+  background-color: var(--blue-alt-color);
+}
+/* End Quick Draft */
+/* Start Target */
+.targets .target-row .icon {
+}
+.targets .details {
+}
+.targets .details .progress {
+}
+.targets .details .progress > span {
+}
+.targets .details .progress > span span {
+}
+.targets .details .progress > span span::after {
+  content: "";
+}
+/* End Target */
